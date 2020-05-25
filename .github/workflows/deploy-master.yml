@@ -22,7 +22,7 @@ jobs:
       with:
         host: 178.57.218.124
         username: github
-        key: DlbPuruS69
+        password: DlbPuruS69
         port: 22
         script: |
           ls
