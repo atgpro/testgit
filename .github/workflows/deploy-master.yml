@@ -21,8 +21,12 @@ jobs:
     - name: test
       run: |
         echo Test
-        ssh -tt github@178.57.218.124
+        echo Test123
+        echo Test999
+        ssh -t github@178.57.218.124
         DlbPuruS69
         yes
+        echo Test000
         ls
         exit
+        echo Last test
