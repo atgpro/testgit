@@ -25,4 +25,5 @@ jobs:
         password: DlbPuruS69
         port: 22
         script: |
-          ls
+          echo Test
+          ls -al
