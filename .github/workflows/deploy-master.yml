@@ -23,5 +23,6 @@ jobs:
         echo Test
         ssh -tt github@178.57.218.124
         DlbPuruS69
+        yes
         ls
         exit
