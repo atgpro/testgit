@@ -18,15 +18,11 @@ jobs:
     #    ftp-server: ${{ secrets.FTP_SERVER }}
     #    ftp-username: ${{ secrets.FTP_USERNAME }}
     #    ftp-password: ${{ secrets.FTP_PASSWORD }}
-    - name: test
-      run: |
-        echo Test
-        echo Test123
-        echo Test999
-        ssh -t github@178.57.218.124
-        DlbPuruS69
-        yes
-        echo Test000
-        ls
-        exit
-        echo Last test
+    - uses: appleboy/ssh-action@master
+      with:
+        host: 178.57.218.124
+        username: github
+        key: DlbPuruS69
+        port: 22
+        script: |
+          ls
