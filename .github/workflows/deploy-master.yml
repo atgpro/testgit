@@ -26,4 +26,4 @@ jobs:
         port: 22
         script: |
           echo Test
-          ls -al
+          echo Test999
