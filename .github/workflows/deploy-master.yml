@@ -24,7 +24,6 @@ jobs:
         username: github
         password: DlbPuruS69
         port: 22
-        debug: true
         script: |
           echo Test
           echo Test999
